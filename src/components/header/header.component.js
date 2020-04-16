@@ -25,7 +25,7 @@ const Header =({currentUser, toggleCartHidden}) => (
         </Link>
         <div className='options'>
             <Link className='option' to='/shop'>SHOP</Link>
-            <Link className='option' to='/shop'>CONTACT</Link>
+            <a href={"mailto:duran.irnes@gmail.com"} className='option'>CONTACT</a>
             {
                 currentUser ? 
                 <div className='option' onClick={() => auth.signOut()}>SIGN OUT</div>
