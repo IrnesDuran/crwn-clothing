@@ -65,4 +65,20 @@
       font-size: 16px;
     }
   }
+  
 }
+
+
+@media screen and (max-width: 800px) {
+  .menu-item .background-image {
+      height: 200px;
+  }
+  .large.menu-item {
+    height: 200px;
+}
+  &.menu-item {
+    height: 200px;
+  }
+
+}
+
